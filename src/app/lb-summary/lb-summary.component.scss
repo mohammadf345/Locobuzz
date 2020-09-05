@@ -1,0 +1,15 @@
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #667e8e;
+    border-bottom: 3px solid #5bc0eb;
+    background-color: #fff;
+}
+.lb-color {
+    color: #63fc00;
+}
+.dropdown-menu {
+    min-width: 18rem;
+}
+.dropdown-toggle::after {
+    content: none;
+}

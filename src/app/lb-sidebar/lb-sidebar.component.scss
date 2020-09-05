@@ -1,0 +1,39 @@
+.sidebar {
+    margin-top: 65px;
+    height: 90vh;
+    z-index: 999;
+    background: #002a3d;
+    color: #fff;
+    transition: all 0.3s;
+    overflow: auto;
+    overflow-y: scroll; 
+}
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.sidebar ul li {
+    padding: 15px 30px 15px 15px;
+    display: block;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #bdb8d7;
+    display: block;
+}
+
+.sidebar ul li a .fas {
+    width: 2rem;
+    font-size: 1.2rem;
+}
+
+.sidebar ul li:hover {
+    background-color: #0e3649;
+}
+
+.sidebar ul li:hover a {
+    color: #fff;
+}

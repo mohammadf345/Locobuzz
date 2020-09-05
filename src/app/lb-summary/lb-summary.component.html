@@ -1,0 +1,85 @@
+<div fxLayout="column" fxLayoutAlign="start start">
+    <div class="w-100 lb-title" fxLayout="row" fxFlex="100">
+        <span class="ml-1"><i class="fas fa fa-eercast"></i> Locobuzz/ Ticket</span>
+    </div>
+
+    <div class="w-100 lb-bg-color" fxLayout="row" fxFlex="100">
+        <h5 class="ml-3 mt-3">Profile Configuration</h5>
+    </div>
+
+    <div class="w-100 lb-bg-color" fxLayout="row" fxFlex="100">
+        <span class="ml-3 mt-1 lb-textcolor">Configure your al channels/profiles, search keywords here</span>
+    </div>
+
+    <div class="w-100 lb-bg-color pt-3" fxLayout="row" fxFlex="100">
+        <span class="target"></span>
+        <ul class="w-100 lb-bg-color nav nav-pills ml-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" role="tab" aria-controls="pills-home"
+                    aria-selected="true">
+                    <span class="lb-textcolor">Social Profiles(3)</span></a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" role="tab" aria-controls="pills-profile"
+                    aria-selected="false">
+                    <span class="lb-textcolor">Keywords</span></a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" role="tab" aria-controls="pills-contact"
+                    aria-selected="false">
+                    <span class="lb-textcolor">Add Accounts</span></a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" role="tab" aria-controls="pills-contact"
+                    aria-selected="false">
+                    <span class="lb-textcolor">Other Profiles</span></a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="w-100 lb-bg-color pb-3" fxLayout="row" fxLayout.xs="column" fxFlex="100">
+        <span class="ml-3 mt-3 lb-textcolor">Active Profiles/Total Profiles : <span
+                class="lb-color font-weight-bold">3</span>/8</span>
+        <span fxFlex></span>
+        <div fxLayout="row" fxLayoutAlign="end end" fxLayoutAlign.xs="center center">
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary  btn-sm mr-1 dropdown-toggle" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-plus-square mr-2" aria-hidden="true"></i> Add Profiles
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <span class="ml-3 font-weight-bold">Add Your Social Media Profiles</span>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="//www.facebook.com/locobuzz/?fref=ts" target="_blank">
+                        <img src="assets/images/Group 9316.svg" class="mr-1">
+                        FaceBook
+                    </a>
+                    <a class="dropdown-item" href="//www.instagram.com/locobuzzsolutions" target="_blank">
+                        <img src="assets/images/Layer 4 (1).svg" class="mr-1">
+                        Instagram
+                    </a>
+                    <a class="dropdown-item" href="//twitter.com/LocoBuzzIndia" target="_blank">
+                        <span class="ml-3">Twitter</span>
+                    </a>
+                    <a class="dropdown-item" href="//www.linkedin.com/company/locobuzz/" target="_blank">
+                        <span class="ml-3">LinkedIn</span>
+                    </a>
+                    <a class="dropdown-item" href="//www.youtube.com" target="_blank">
+                        <span class="ml-3">Youtube</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-100 lb-bg-color pb-3" fxLayout="column" fxLayout.xs="column" fxFlex="100">
+        <div class="w-100 lb-bg-color " fxLayout="column" fxFlex="100">
+            <div fxLayout="row" class="ml-3">
+                <img src="assets/images/Group 9316.svg" class="mr-1"> 
+                <img src="assets/images/Layer 4 (1).svg" class="mr-1">
+                <h6 class="ml-2 mt-1">Facebook & Instagram Profiles</h6>
+            </div>
+            <app-lb-ticket class="w-100"></app-lb-ticket>
+        </div>
+
+    </div>
+</div>
